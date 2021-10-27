@@ -98,5 +98,4 @@ local Other = Window:NewTab("Other")
 local OtherSection = Other:NewSection("Other")
 OtherSection:NewKeybind("ToggleUI", "Right Alt", Enum.KeyCode.RightAlt, function()
 	Library:ToggleUI()
-	end)
-end
+end)
